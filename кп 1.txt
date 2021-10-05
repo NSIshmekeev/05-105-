@@ -3,7 +3,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL,"Russian");
 int a, c, b;
-c -+= 99;
+c = 99;
 b = 1000;
 cin >> a;
 if ((a > c) && (b > a)) { cout << "Число трехзначное"; }
